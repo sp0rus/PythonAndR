@@ -1,0 +1,6 @@
+[submodule "PythonAndR.wiki"]
+	path = PythonAndR.wiki
+	url = https://github.com/jcchurch/PythonAndR.wiki.git
+[submodule "wiki"]
+	path = wiki
+	url = https://github.com/jcchurch/PythonAndR.wiki.git
