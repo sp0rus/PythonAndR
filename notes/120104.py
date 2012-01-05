@@ -2,9 +2,9 @@ filename = "mynewsstory.txt"
 story = file(filename).read()
 story = story.replace ('.','')
 story = story.replace(',','')
-.
-.
-.
+#.
+#.
+#.
 story = story.lower()
 bagofwords = story.split(' ')
 
@@ -27,7 +27,7 @@ print mostSeenWord
 
 ###########################################
 
-JAVA CLASSES
+#JAVA CLASSES
 
 class Bicycle {
     private int gear;
@@ -46,7 +46,7 @@ class Bicycle {
     }
 }
 
-PYTHON CLASSES
+#PYTHON CLASSES
 
 class Bicycle:
     def __init__(self):
@@ -62,9 +62,9 @@ class Bicycle:
 
 ###################################################
 
-Histograms
--> Tally of quantized values
--> binning
+#Histograms
+#-> Tally of quantized values
+#-> binning
 
 import matplotlib.pyplot as plt
 
@@ -73,7 +73,7 @@ plt.show()
 
 ##################################################
 
-Summary Statistics
+#Summary Statistics
 
 import math
 import matplotlib.pyplot as plt
@@ -102,8 +102,8 @@ plt.show()
 
 #################################################
 
-Kernel Density Estimators
--> Requires a bandwidth parameter
+#Kernel Density Estimators
+#-> Requires a bandwidth parameter
 
 import math
 import matplotlib.pyplot as plt
@@ -143,35 +143,34 @@ plt.show()
 
 ###############################################
 
-Regular Expressions
-    - A regular expression is a mini-language for describing text
-        - any sort of text that has to hold to a format
-    - a regular expression is a sequence of atoms
-        - an atom at the very smallest is a single character
-        - atoms can be grouped together with parentheses
-        - by default, a regex matches a string if it is true anywhere inside the string
-        - atoms can be modified
+#Regular Expressions
+#    - A regular expression is a mini-language for describing text
+#        - any sort of text that has to hold to a format
+#    - a regular expression is a sequence of atoms
+#        - an atom at the very smallest is a single character
+#        - atoms can be grouped together with parentheses
+#        - by default, a regex matches a string if it is true anywhere inside the string
+#        - atoms can be modified
         
-3 Most Common Regex Atom Modifiers
+#3 Most Common Regex Atom Modifiers
 
-    -> ? - this atom is optional
-    -> \? - a literal "?"
-    -> * - this is both optional and can be used infinitely
-    -> \* - a literal "*"
-    -> + - this is not optional, may be used infinitely
-    -> \+ - a literal "+"
+#    -> ? - this atom is optional
+#    -> \? - a literal "?"
+#    -> * - this is both optional and can be used infinitely
+#    -> \* - a literal "*"
+#    -> + - this is not optional, may be used infinitely
+#    -> \+ - a literal "+"
     
-    color --
-           |--colou?r
-    colour--
+#    color --
+#           |--colou?r
+#    colour--
 
-Character classes
-[abc123]
+#Character classes
+#[abc123]
 
--> . - match anything
--> \. - math a period
+#-> . - match anything
+#-> \. - math a period
 
-    gray--
-         |--gr[ea]y #character class to allow either spelling of the word
-    grey--
-
+#    gray--
+#         |--gr[ea]y #character class to allow either spelling of the word
+#    grey--
