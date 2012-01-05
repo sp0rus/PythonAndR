@@ -1,0 +1,27 @@
+sp0rus@Peter:~/Code/PythonandR/labs/lab4$ python
+Python 2.7.2+ (default, Oct  4 2011, 20:03:08) 
+[GCC 4.6.1] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import matplotlib.pyplot as plt
+>>> import numpy as np
+>>> x = np.linspace(0, 4*np.pi, 1000*np.pi)
+>>> x
+array([  0.00000000e+00,   4.00202886e-03,   8.00405772e-03, ...,
+         1.25583666e+01,   1.25623686e+01,   1.25663706e+01])
+>>> len(x)
+3141
+>>> y = np.sin(x)
+>>> y
+array([  0.00000000e+00,   4.00201818e-03,   8.00397225e-03, ...,
+        -8.00397225e-03,  -4.00201818e-03,  -4.89842542e-16])
+>>> plt.plot(x,y);plt.show()
+[<matplotlib.lines.Line2D object at 0xab0b4ac>]
+>>> y = np.sin(x*4)
+>>> y = np.abs(np.sin(x*4))
+>>> x = np.linspace(0.01, 4*np.pi, 1000*np.pi)
+>>> y = np.abs(np.sin(x*4)/x)
+>>> plt.plot(x,y); plt.show()
+[<matplotlib.lines.Line2D object at 0xad1152c>]
+>>> exit()
+sp0rus@Peter:~/Code/PythonandR/labs/lab4$ 
+                   
