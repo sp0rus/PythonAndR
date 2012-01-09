@@ -25,7 +25,7 @@ for w in words:
 print mostSeenWord
 
 
-###########################################
+###############################################################################
 
 #JAVA CLASSES
 
@@ -60,7 +60,7 @@ class Bicycle:
         return "Gear: %s Speed %s" %(self.__gear, self.speed)
 
 
-###################################################
+###############################################################################
 
 #Histograms
 #-> Tally of quantized values
@@ -71,7 +71,7 @@ import matplotlib.pyplot as plt
 plt.hist(grossIncome) # plt.hist(grossIncome, bins=5)
 plt.show()
 
-##################################################
+###############################################################################
 
 #Summary Statistics
 
@@ -100,7 +100,7 @@ while b <= high:
 plt.plot(x,y)
 plt.show()
 
-#################################################
+###############################################################################
 
 #Kernel Density Estimators
 #-> Requires a bandwidth parameter
@@ -141,7 +141,7 @@ for i in range(n):
 plt.plot(binpoints,masterbin)
 plt.show()
 
-###############################################
+###############################################################################
 
 #Regular Expressions
 #    - A regular expression is a mini-language for describing text
@@ -149,7 +149,8 @@ plt.show()
 #    - a regular expression is a sequence of atoms
 #        - an atom at the very smallest is a single character
 #        - atoms can be grouped together with parentheses
-#        - by default, a regex matches a string if it is true anywhere inside the string
+#        - by default, a regex matches a string if it is true anywhere inside 
+#          the string
 #        - atoms can be modified
         
 #3 Most Common Regex Atom Modifiers
