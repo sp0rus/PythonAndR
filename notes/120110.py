@@ -20,7 +20,7 @@ np.ones(r,c) # creates array of shape (r, c) filled with ones
 np.size() # returns the numbers of elements ( r by c )
 np.dot(a, b) # a and b are matrices, multiply them together
 np.sqrt() #
-np.transpost() # converts an r, c matrix to a c, r matrix, flips along a diagonal
+np.transpose() # converts an r, c matrix to a c, r matrix, flips along a diagonal
 np.linalg.solve(a, b) # linear equation solver, solves ax = b, where a is a
                       # matrix and both b and x are vectors. solves for x
 np.concatonate() # takes two matrices and combines them together
